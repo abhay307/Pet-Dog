@@ -1,0 +1,373 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:arial;
+}
+body, html{
+	width:100%;
+	height:100%;
+}
+.container{
+	max-width:1370px;
+	margin:0px auto;
+	width:100%;
+}
+.container:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+header{
+	display:flex;
+	
+	justify-content:space-between;
+	align-items:center;
+	height:5vw;
+	
+}
+header img{
+	width:6vw;
+	height:4.5vw;
+}
+nav{
+	display:flex;
+	gap:5vw;
+}
+nav h3{
+	font-size:1.2vw;
+	font-weight:500;
+}
+nav h3:hover{
+	color:#FFC700;
+	cursor:pointer;
+}
+.page1{
+	background-image:url("https://img.freepik.com/free-photo/3d-rendering-cartoon-dog-portrait_23-2150907158.jpg?t=st=1712921495~exp=1712925095~hmac=bcfebfb48db8bfd455d5c4e10512d10d1cbc0148b25c3f4cfcdfdabbdf0bf5a5&w=1380");
+	background-size:cover;
+	background-size:100% 115%;
+	background-attachment:fixed;
+	padding:7vw 0vw;
+	color:white;
+}
+.page-1{
+	width:40%;
+}
+.page-1 h1{
+	font-size:3vw;
+}
+.page-1 p{
+	font-size:1.1vw;
+	text-align:justify;
+	line-height:1.8vw;
+	margin:3vw 0vw;
+}
+.page-1 button{
+	padding:0.8vw 1.4vw;
+	font-weight:700;
+	background:black;
+	color:white;
+	border:none;
+}
+.page2{
+	padding:5vw 0vw;
+	background-color:#ccc;
+}
+.page2>div{
+	display:flex;
+}
+.page-2{
+	width:50%;
+	height:50vw;
+	background-color:white;
+	padding:3vw 8vw;	
+}
+.page-21{
+	height:60%;
+	margin:0px auto;
+	background-image:url("https://img.freepik.com/free-photo/3d-rendering-dog-toy_23-2150780988.jpg?t=st=1712922104~exp=1712925704~hmac=8dbe4c2f3107f44bcdf0074bba3b11e318989843493109951b980239cbed1547&w=996");
+	background-size:cover;
+	background-size:100% 100%;
+}
+.page-2 p{
+	font-size:1.1vw;
+	line-height:1.7vw;
+	text-align:justify;
+	margin:3vw 0vw;
+	color:white;
+}
+.page-2 h1{
+	font-size:4vw;
+	margin-top:5vw;
+	margin-bottom:1vw;
+	color:#FFC700;
+}
+#page-20{
+	background:blue;
+}
+.page-22{
+	
+	height:14vw;
+	width:50%;
+	border-radius:100%;
+	background-image:url("https://img.freepik.com/free-photo/3d-rendering-cartoon-dog-portrait_23-2150907092.jpg?t=st=1712922727~exp=1712926327~hmac=5ccf6a490f3c872b0d09d6c6c5bfc73f4d152465fabbb1721d6f985a916fe7f9&w=996");
+	background-size:cover;
+	background-size:120% 100%;
+
+}
+
+
+.page3{
+	padding:6vw 0vw;
+	background-color:#FFC700;
+	color:white;
+}
+.page-31{
+	width:50%;
+}
+.page3>div{
+	display:flex;
+	justify-content:space-between;
+}
+.page-31 h1{
+	font-size:3vw;
+}
+
+.page-31 p{
+	font-size:1.2vw;
+	text-align:justify;
+	line-height:2vw;
+	margin:3vw 0vw;
+}
+.page-31 button{
+	padding:0.8vw 1.4vw;
+	font-weight:700;
+	background:black;
+	color:white;
+	border:none;
+}
+#page-30{
+	background-image:url("https://img.freepik.com/premium-photo/dachshund-dog-winking-sticking-out-tongue-color-bright-background_955712-26865.jpg?w=996");
+	background-size:cover;
+	background-size:100% 100%;
+	height:25vw;
+	width:30%;
+	border-radius:60% ;
+}
+.page4{
+	padding:5vw 0vw;
+	background-color:#ccc;
+	height:55vw;
+}
+.page4>div{
+	display:flex;
+	justify-content:space-between;
+}
+
+.page-4{
+	width:45%;
+	height:31vw;
+}
+
+.page-4 h1{
+	font-size:3vw;
+	font-weight:100;
+}
+
+.page-4 p{
+	font-size:1.2vw;
+	text-align:justify;
+	line-height:2vw;
+	margin:3vw 0vw;
+}
+.page-4 button{
+	padding:0.8vw 1.4vw;
+	font-weight:700;
+	background:black;
+	color:white;
+	border:none;
+}
+.div1{
+	
+	height:100%;
+	width:50%;
+	
+}
+.div12{
+	padding:8.5vw 0vw;
+}
+.page421{
+	display:flex;
+}
+.div01{
+	width:100%;
+	height:50%;
+	padding:1.5vw 3.7vw;;
+}
+.page-4 img{
+	width:12vw;
+	height:12vw;
+	border-radius:100%;
+	border: 0.5vw solid transparent;
+	overflow:hidden;
+	transition:2s;
+}
+.page-4 img:hover{
+	border:0.5vw solid blue;
+	transform:scale(1.1);
+}
+.box1{
+	width:70vw;
+	height:25vw;
+	position:relative;
+	left:14vw;
+	background-image:url("https://img.freepik.com/free-photo/side-view-man-holding-dog_23-2150947970.jpg?t=st=1712935650~exp=1712939250~hmac=9999ca44fb0917834743b043d643f6a9b796acb6de462376e8a55d2ecf799971&w=996");
+	background-size:cover;
+	background-size:100% 100%;);
+	
+}
+.box2{
+	background:white;
+	width:50vw;
+	height:20vw;
+	position:relative;
+	right:40vw;
+	top:15vw;
+	padding:2vw 3vw;
+	
+}
+.box2 button{
+	padding:0.7vw 1.2vw;
+	font-weight:700;
+	background:#ccc;
+	color:white;
+	border:solid transparent;
+}
+.box2 h1{
+	font-size:2vw;
+	color:#ccc;
+}
+.box2 p{
+	font-size:1vw;
+	line-height:1.5vw;
+}
+.box3{
+	background:blue;
+	width:50vw;
+	height:25vw;
+	position:relative;
+	left:59vw;
+	top:5vw;
+}
+.box{
+	margin-top:10vw;
+}
+
+
+.page5{
+	padding:5vw 0vw 3vw 0vw;
+	background-color:#FFC700;
+	color:white;
+	margin-top:30vw;
+}
+.page-51{
+	width:50%;
+}
+.page5>div{
+	display:flex;
+	justify-content:space-between;
+}
+.page-51 h1{
+	font-size:3vw;
+}
+
+.page-51 p{
+	font-size:1.2vw;
+	text-align:justify;
+	line-height:2vw;
+	margin:3vw 0vw;
+}
+#page-50{
+	background-image:url("https://img.freepik.com/premium-psd/woman-holding-puppy-her-arms-with-black-background_410516-124763.jpg?w=740");
+	background-size:cover;
+	background-size:100% 100%;
+	height:25vw;
+	width:30%;
+	border-radius:60% ;
+}
+.page6{
+	width:70%;
+	padding:5vw 0vw;
+	margin:0px auto;
+	display:flex;
+	justify-content:space-evenly;
+}
+.page6-1{
+	width:45%;
+	height:33vw;
+}
+.address{
+	width:40%;
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	gap:2vw;
+	background:#ccc;
+}
+.form h1{
+	font-size:2vw;
+	text-align:center;
+	color:blue;
+	margin-bottom:2vw;
+}
+.form #name, #email, textarea{
+	width:100%;
+	padding:0.5vw 1vw;
+	border:none;
+	border-bottom:0.2vw solid black;
+	margin-top:0.5vw;
+}
+.form #check{
+	text-align:left;
+	border:solid red;
+}
+.form #button{
+	width:100%;
+	padding:0.5vw 0vw;
+	background:blue;
+	color:white;
+	border:transparent;
+	font-weight:700;
+	font-size:1.2vw;
+}
+.form label{
+	font-size:1.2vw;
+}
+.form ::placeholder{
+	font-size:1.1vw;
+}
+.form span{
+	color:blue;
+}
+input[type="checkbox"]{
+	transform:scale(1.5);
+	margin:1vw;
+}
+.address h1{
+	font-size:2vw;
+	
+	color:blue;
+}
+.address p{
+	font-size:1.1vw;
+	
+}
+footer{
+	text-align:center;
+	line-height:1.5vw;
+	font-size:1vw;
+	padding:1vw 0vw;
+	background:#31363F;
+	color:white;
+}
